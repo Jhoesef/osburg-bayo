@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #F0EFE9;
+}
+/*
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: -5px;
+}
+nav li {
+    height: 100px;
+    
+}
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: poppins;
+    
+}
+nav a:hover{
+    
+    
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.logo{
+    margin-left: 40px;
+}
+.color a {
+    color: #999BA8;
+}
+
+
+.signup{
+    background-color: orange;
+    border-radius: 10px;
+    height: 200%;
+    color: white;
+    margin-right: 15%;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #fdfeff73;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(190, 190, 190, 0.329);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li {
+    width: 100%;
+}
+.sidebar a {
+    width: 100%;
+}
+*/
+section{
+    
+    display: flex;
+}
+
+.leftdiv{
+    width: 45%;
+    height: 620px;
+    
+}
+
+.rightdiv{
+    width: 40%;
+    height: 620px;
+    
+}
+
+.creative {
+    margin: 60px 70px;
+    color: black;
+}
+
+.exclusive {
+    margin-left: 60px;
+    font-style: lato;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 1%;
+}
+
+.we {
+    margin: 60px 70px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #999BA8;
+}
+
+.email {
+    margin-left: 70px;
+    height: 40px;
+    width: 35%;
+}
+
+.connect {
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img1 {
+    border-radius: 100%;
+}
+
+.lucy {
+    display: flex;
+    margin-top: 70px;
+    width: 60%;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cary {
+    margin-top: 8px;
+}
+
+.client {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B7BC;
+    left: 823px;
+}
+
+.lc {
+    left: 823px;
+}
+
+.branch {
+    background-color: white;
+    width: 60%;
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.branch h5 {
+    padding-left: 15px ;
+    padding-top: 15px;
+}
+
+.enegagement {
+    margin-top: 0;
+    display: flex;
+}
+
+.engagement h6 {
+    color: #B2B7BC;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    display: flex;
+}
+
+.orange {
+    width: 50%;
+    height: 15px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.oe {
+    display: flex;
+    
+}
+
+.black {
+    width: 50%;
+    height: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.ie {
+    display: flex;
+    
+}
+
+.group3 {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.bigphoto {
+    width: 150%;
+    height: auto;
+    margin-top: 0;
+    
+}
+
+.expert {
+    width: 40%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 360px;
+    margin-top: 0;
+    
+}
+
+.expert h5 {
+    font-family: poppins;
+}
+.menu-btn {
+    display: none;
+}
+/*
+@media(max-width:800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    section{
+        display: block;
+    }
+    .leftdiv {
+        width: auto;
+        height: auto;
+    }
+    .rightdiv {
+        width: auto;
+        height: auto;
+        margin-left: 70px;
+    }
+    .bigphoto {
+        display: block;
+        width: 100%;
+        
+    }
+    .expert {
+        display: block;
+        margin-left: 40%;
+    }
+}
+@media(max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    section{
+        display: block;
+    }
+    .leftdiv {
+        width: 100%;
+        height: auto;
+    }
+    .rightdiv {
+        width: auto;
+        height: auto;
+        margin-left: 70px;
+    }
+    .bigphoto {
+        display: block;
+        width: 100%;
+        
+    }
+    .expert {
+        display: block;
+        margin-left: 5%;
+    }
+}
+*/
